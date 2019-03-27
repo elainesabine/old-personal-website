@@ -1,0 +1,12 @@
+p{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'montserratblack';
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.router-link-active {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
