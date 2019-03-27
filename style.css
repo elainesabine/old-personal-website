@@ -1,10 +1,9 @@
 @font-face {
   font-family: 'montserratblack';
-  src: url('montserrat-black-webfont.woff2') format('woff2'),
-       url('montserrat-black-webfont.woff') format('woff');
+  src: url('./fonts/montserrat-black-webfont.woff2') format('woff2'),
+       url('./fonts/montserrat-black-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 h1{
@@ -12,14 +11,14 @@ h1{
     color: #000000;
     font-size: 45px;
     letter-spacing: 3px;
-    font-family: 'montserratblack', montserrat-black;
+    font-family: 'montserratblack';
     text-align: center;
 }
 
 body2{
     color: #000000;
     font-size: 22px;
-    font-family: 'montserratblack', montserrat-black;
+    font-family: 'montserratblack';
     letter-spacing: 3px;
     text-align: left;
 }
@@ -27,11 +26,20 @@ body2{
 body1{
     color: #000000;
     font-size: 20px;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     line-height: 1.1;
     font-style: normal;
     font-stretch: semi-expanded;
     font-family: 'Times New Roman';
+}
+
+body3{
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-style: normal;
+  font-family: 'Times New Roman';
 }
 
 /* @media only screen and (max-width: 950px) {
