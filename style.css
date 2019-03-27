@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'montserratblack';
+  src: url('./fonts/montserrat-black-webfont.woff2') format('woff2'),
+       url('./fonts/montserrat-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+    /* color: #5ab0e6; */
+    color: #000000;
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-family: 'montserratblack';
+    text-align: center;
+}
+
+body1{
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 1.1;
+    font-style: normal;
+    font-stretch: semi-expanded;
+    font-family: 'Times New Roman';
+}
+
+body2{
+  color: #000000;
+  font-size: 20px;
+  font-family: 'montserratblack';
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+body3{
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.1;
+  font-style: normal;
+  font-family: 'Times New Roman';
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* [class*="col"] {
+  border: 1px solid rgb(248, 188, 188);
+} */
+
+ul{
+  width: 100%;
+  padding-left: 0px;
+}
+
+li{
+  position: realative;
+  font-size: 19px;
+  font-family: 'montserratblack';
+  letter-spacing: 3px;
+  text-align: center;
+  display: block;
+  width: 25%;
+  float: left;
+}
+
+@media (max-width: 960px) {
+  li { width: 100%; } /* On small screens, show one logo per row */
+}
+
+#tabs .ui-tabs-active {
+  font-style: italic;
+}
+
+#tabs ul li a{
+  color: rgb(96, 96, 96);
+  text-decoration: none;
+}
+
+#tabs ul li a:hover{
+  color:#accfdc;
+  text-decoration: none;
+}
+
+#tabs ul li a:selected {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
